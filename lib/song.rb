@@ -10,4 +10,9 @@ class Song
     self.class.all << self
   end
 
+  def self.ceate (name)
+    @name = name
+    @@all << @name
+    self
+  end
 end
